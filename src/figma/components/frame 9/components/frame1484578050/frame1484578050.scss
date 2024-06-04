@@ -1,0 +1,55 @@
+
+.container_frame1484578050{
+    margin: 0px 40px;
+    max-width: 575px;
+    color: black;
+    .container2_frame1484578050{
+        margin-top: 20px;
+        padding: 24px;
+        border-radius: 10px;
+        background-color: #fff;
+        .container_kent_stars{
+            display: flex;
+            align-items: center;
+            .imgKent{
+                height: 48px;
+                margin-right: 13px;
+                
+            }
+            .kent_stars{
+                // .star{
+                // }
+                .container_kent{
+                    display: flex;
+                    align-items: center;
+                    font-family: 'Manrope';
+                    line-height: 0.2;
+                    
+                    .pkent{
+                        font-weight: bold;
+                        font-size: 14px;
+                    }
+                    .imgCheck{
+                        height: 16px;
+                        margin: 0px 10px;
+                        
+                    }
+                    .pVerified{
+                        font-size: 12px;
+                        color: #5BB59A;
+                    }
+                }
+            }
+        }
+        .desc_kent{
+            font-family: 'Manrope';
+            font-size: 16px;
+            color: #4D5254;
+        }
+    }
+}
+@media (max-width:360px){
+    .container_frame1484578050{
+        display: none;
+    }
+}

@@ -1,0 +1,44 @@
+.container_tick{
+    color: #4D5254;
+    font-family: 'Manrope';
+    font-size: 16px;
+    margin: 16px 0px;
+    ul {
+        padding: 0%;
+        li{
+            display: flex;
+            align-items: center;
+            list-style: none;
+            p{
+                max-width: 500px;
+                line-height: 8px;
+                span{
+                    font-weight: bold;
+                }
+            }
+            img{
+                width: 22px;
+                margin-right: 12px;
+            }
+        }
+    }
+}
+@media (max-width: 360px){
+    .container_tick{
+        margin-top:36px ;
+        ul {
+            li{
+                font-size: 12px;
+                p{    
+                    span{
+                        font-weight: bold;
+                    }
+                }
+                img{
+                    width: 16px;
+                
+                }
+            }
+        }
+    }
+}

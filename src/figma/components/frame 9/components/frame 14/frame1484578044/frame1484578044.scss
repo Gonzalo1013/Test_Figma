@@ -1,0 +1,36 @@
+.container_satisfaction{
+    display: flex;
+    margin: 16px 0px;
+    .img_satisfaction{
+       width: 88px;
+       height: 88px;
+
+    }
+    .p_satisfaction{
+        font-size: 16px;
+        font-family: 'Manrope';
+        color: #4D5254;
+        margin: 0px 16px;
+        width: 446px;
+        span{
+            font-weight: bold;
+        }
+    }
+}
+@media (max-width: 360px){
+    .container_satisfaction{
+        margin: 16px 0px;
+        .img_satisfaction{
+           width: 48px;
+           height: 48px;
+    
+        }
+        .p_satisfaction{
+            font-size: 12px;
+           
+            margin: 0px 16px;
+            width: 256px;
+            
+        }
+    }
+}

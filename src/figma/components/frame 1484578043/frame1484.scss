@@ -1,0 +1,81 @@
+.container_s{
+    background-color: #ffffff;
+    text-transform: capitalize;
+    color: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1500px;
+    height: 40px;
+    padding: 0px 40px ;
+
+    .container_steps{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .check, .tree, .four{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            font-family: 'manrope';
+            font-size: 20px;
+            margin-right: 20px;
+        }
+        .check{
+            background-color: #85BF55;
+            color: #fff;
+            
+        }
+        .tree{
+            background-color: #2C7EF8;
+            color: #fff;
+
+        }
+        .four{
+            color: #2C7EF8;
+            border: solid #2C7EF8 3px;
+
+        }
+        .step1, .step2, .step3, .step4{
+            font-family: 'manrope';
+            font-size: 20px;
+        }
+        .step3{
+            font-weight: bold;
+        }
+        
+    }
+}
+@media (max-width: 360px){
+    .container_s{
+        justify-content: space-around;
+        padding: 12px 12px;
+        background-color: #fafafa;
+        .container_steps{
+            flex-direction: column;
+            text-align: center;
+            .check, .tree, .four{
+                font-size: 14px;
+                width: 20px;
+                height: 20px;
+            }
+            
+            .four{
+                border: solid #2C7EF8 1px;
+                width: 17px;
+                height: 17px;
+            }
+            .step1, .step2, .step3, .step4{
+                font-size: 12px;
+                margin-top: 8px;        
+            }
+            
+            .step{
+                display: none;
+            }
+        }
+    }
+}

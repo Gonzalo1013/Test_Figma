@@ -1,0 +1,109 @@
+.container_4689{
+    width: 542px;
+    .frame4690{
+        background-color: #59AE43;
+        border-radius: 50px;
+        p{
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            padding: 16px ;
+            text-transform: uppercase;
+        }
+    }
+    .frame4691{
+        
+        color: #CFCFCF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 12px;
+        border: solid #CFCFCF 1px;
+        border-radius: 4px;
+        .shipping{
+            margin: auto;
+            color: #4D5254;
+        }
+        .secure{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin: auto;
+            color: #4D5254;
+            .img_lock{
+                width: 12px;
+                height: 12px;
+                margin: 0px 10px;
+            }
+        }
+        .imgs_card{
+            margin: auto;
+            img{
+                margin: 0px 1px;
+            }
+        }
+        .l{
+            height: 16px;
+            border: solid #CFCFCF 1px;
+        }
+        .l2{
+            height: 16px;
+            border: solid #CFCFCF 1px;
+        }
+    }
+    .no_thanks{
+        p{
+            font-family: 'Manrope';
+            font-size: 18px;
+            color:#F82C2C;
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+    }
+}
+@media (max-width:360px){
+    .container_4689{
+        .frame4690{
+            background-color: #59AE43;
+            width: 320px;
+            p{
+                color: #fff;
+                font-size: 14px;
+            }
+        }
+        .frame4691{
+            color: #CFCFCF;
+            width: 321px;
+            flex-wrap: wrap;
+            .secure{
+                .img_lock{
+                    width: 12px;
+                    height: 12px;
+                }
+            }
+            .imgs_card{
+                img{
+                    margin: 12px 1px;
+                }
+            }
+            .l2{
+                height: 0px;
+                width: 300px;
+                margin-bottom: 6px;
+                margin-top: 6px;
+                position: absolute;
+                right: 30px;
+                
+            }
+        }
+        .no_thanks{
+            p{
+               font-family: 'Manrope';
+               font-size: 12px;
+               width: 321px;
+            }
+        }
+    }
+}

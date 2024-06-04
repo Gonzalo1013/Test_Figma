@@ -1,0 +1,24 @@
+.container_frame9{
+    background-color: #fff;
+    padding-bottom: 135px;
+    .container_frame9_frame14{
+        display: flex;
+        background-color: #fafafa;
+        max-width: 1245px;
+        margin: -10px 50px 0px 187px;
+        border-radius: 10px;
+        
+    }
+    
+}
+@media (max-width: 360px){
+    .container_frame9{
+        padding-bottom: 0px;
+        .container_frame9_frame14{
+            max-width: 360px;
+            margin: 0px;
+            padding: 10px;
+            border-radius: 0px;
+        }
+    }
+}

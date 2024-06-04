@@ -1,0 +1,48 @@
+.container_percent{
+    align-items: center;
+    display: flex;
+    background-color: #EDF3FD;
+    border-radius: 10px;
+    height: 56px;
+    width: 542px;
+    margin: 16px 0px;
+    .percent{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        background-color: #2C7EF8;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        color: #fff;
+        margin: 16px;
+    }
+    .save{
+        font-family: 'Manrope';
+        font-size: 16px;
+        color: #000;
+        span{
+            color: #2C7EF8;
+        }
+    }
+}
+@media (max-width: 360px){
+    .container_percent{
+        height: 40px;
+        width: 288px;
+        padding: 16px;
+        .percent{
+            width: 24px;
+            height: 24px;
+            align-items: center;
+            font-weight: lighter;
+        }
+        .save{
+            font-size: 14px;
+            span{
+                color: #2C7EF8;
+            }
+        }
+    }
+}

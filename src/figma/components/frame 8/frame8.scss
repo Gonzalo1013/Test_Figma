@@ -1,0 +1,36 @@
+.f8{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0px 0px 12px 0px;
+    line-height: 0.5;
+
+    .h1_f8{
+        font-family: 'Manrope';
+        font-size: 48px;
+        color: #000;
+        font-weight: 500;
+    }
+    .p_f8{
+        font-family: 'Manrope';
+        font-size: 24px;
+        margin: auto;
+        margin-top: 24px;
+        color: #4D5254;
+        line-height: 1;
+    }
+}
+@media (max-width: 360px){
+    .f8{
+        background-color: #fafafa;
+        
+        .h1_f8{
+            font-size: 32px;
+            line-height: 1.4;
+        }
+        .p_f8{
+            font-size: 16px;
+            
+        }
+    }
+}
