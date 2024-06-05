@@ -57,25 +57,26 @@
     top: 5px;
     left: 5px;
 }
-@media (max-width: 360px){
+@media (max-width: 460px){
     .usp {
         overflow-x: auto;
         overflow-y: hidden;
         scrollbar-width: none;
         // height: 42px;
-        width: 320px;
-        padding: 0px 16px;
+        width: 100%;
+        // padding: 0px 16px;
         
         .card{
             flex-flow: row nowrap;
             justify-content: center;
-            margin: 0px 25px;
-            
+            padding: 0px 131px;
             .text{
-                width: 360px;
+                text-align: center;
                 font-size: 12px;
-                // margin: 12px 8px;
+                margin: 12px 8px;
+                width: 230px;
             }
+            
         }
     }
     .bar1{
@@ -86,6 +87,18 @@
     .bar2{
        display: block;
        bottom: 25px;
-       margin: 0px 15px;
+       margin: 0px 85px;
+    }
+  }
+
+  @media (max-width: 360px){
+    
+    .bar1{
+        top: 25px;
+        margin: 0px 15px;
+    }
+    .bar2{
+       bottom: 25px;
+       margin: 0px 35px;
     }
   }

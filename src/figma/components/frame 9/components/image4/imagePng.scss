@@ -1,14 +1,19 @@
 .imgFrame9{
-    max-width: 575px;
-    margin: 40px 40px 0px 40px;
+    .imgFrame_9{
+        max-width: 575px;
+        margin: 40px 40px 0px 40px;
+
+    }
 }
-@media (max-width: 360px){
+@media (max-width: 460px){
     .imgFrame9{
-        display: block;
-        max-width: 320px;
-        margin: 0px;
-        position: absolute;
-        top: 480px;
+        .imgFrame_9{
+            display: block;
+            max-width: 320px;
+            margin: 0px;
+            position: absolute;
+            top: 480px;
+        }
     }
 }
 @media (min-height: 1225px){
