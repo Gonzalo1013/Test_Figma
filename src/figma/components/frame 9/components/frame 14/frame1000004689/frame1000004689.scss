@@ -63,7 +63,7 @@
         }
     }
 }
-@media (max-width:460px){
+@media (max-width:360px){
     .container_4689{
         .frame4690{
             background-color: #59AE43;
@@ -91,10 +91,8 @@
             .l2{
                 height: 0px;
                 width: 300px;
-                margin-bottom: 6px;
-                margin-top: 6px;
-                position: absolute;
-                right: 30px;
+                position: relative;
+                left: 10px;
                 
             }
         }

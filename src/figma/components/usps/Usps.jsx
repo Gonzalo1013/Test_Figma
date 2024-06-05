@@ -10,16 +10,20 @@ const usps = [
 
 export const Usps = () => {
   return (
-    <div className="usp">
-      {
-        usps.map( us => 
-          <div className='card' key={us.id}>
-            
-            <img className='i' src={us.img} alt="asd" />
-            <p className='text'>{us.txt}</p>
-        </div>
+    <div>
+
+        <div className='bar1'></div>
+        <div className="usp">
+          {
+            usps.map( us => 
+              <div className='card' key={us.id}>
+              <img className='i' src={us.img} alt="asd" />
+              <p className='text'>{us.txt}</p>
+              </div>
           )
         }
+        </div>
+        <div className='bar2'></div>
       
     </div>
   )
