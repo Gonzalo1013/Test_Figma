@@ -9,7 +9,7 @@ export const Frame4694 = () => {
             <p>clarifionsupport@clarifion.com</p>
         </div>
         <div className='container_secure'>
-            <img src="/assets/Lock.png" alt="img" />
+            <img src="/assets/lock.png" alt="img" />
             <p>Secure 256-Bit SSL Encryption.</p>
         </div>
     </div>

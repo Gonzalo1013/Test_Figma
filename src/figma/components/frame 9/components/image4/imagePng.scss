@@ -4,6 +4,16 @@
 }
 @media (max-width: 360px){
     .imgFrame9{
+        display: block;
+        max-width: 320px;
+        margin: 0px;
+        position: absolute;
+        top: 480px;
+    }
+}
+@media (min-height: 1225px){
+    .imgFrame9{
         display: none;
+
     }
 }

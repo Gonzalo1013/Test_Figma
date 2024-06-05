@@ -1,7 +1,7 @@
 .usp{
     display: flex;
     justify-content:space-evenly;
-    height: 50px;
+    // height: 50px;
     width: 100%;
     background-color: rgb(37, 47, 61);
     align-items: center;
@@ -15,7 +15,7 @@
             font-size: 12px;
             width: auto;
             text-align: left;
-            margin: 0px 8px;
+            margin: 16px 8px;
         }
         .i{
             width: 22px;
@@ -62,7 +62,7 @@
         overflow-x: auto;
         overflow-y: hidden;
         scrollbar-width: none;
-        height: 42px;
+        // height: 42px;
         width: 320px;
         padding: 0px 16px;
         
@@ -74,6 +74,7 @@
             .text{
                 width: 360px;
                 font-size: 12px;
+                // margin: 12px 8px;
             }
         }
     }
