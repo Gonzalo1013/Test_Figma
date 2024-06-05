@@ -83,7 +83,8 @@
 }
 @media (max-width: 360px){
     .container_frame13{
-        
+        margin-top: 374px;
+
         .container_remove{
             width: 80px;
             height: 80px;
@@ -134,9 +135,9 @@
         }
     }
 }
-@media (max-height: 1200px){
+@media (min-height: 1225px){
     .container_frame13{
-        margin-top: 374px;
+        margin-top:  0px;
 
     }
 }
